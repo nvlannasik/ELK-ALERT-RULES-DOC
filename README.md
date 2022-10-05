@@ -90,7 +90,7 @@ Pada `Document to Index`, masukan script dibawah ini:
 
 ```
 {
-    "Timestamp": "{{context.timestamp}}",
+    "timestamp": "{{context.timestamp}}",
     "Alert_ID": "{{alert.id}}",
     "Condition": "{{alert.actionGroupName}}",
     "value": "{{context.value}}",
